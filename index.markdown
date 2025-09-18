@@ -71,52 +71,52 @@ Both quantitative and qualitative evaluations demonstrate that our model outperf
 </tr>
 <tr>
 <td><img src='./assets/demo_samples/i2a/image/6pvMFjUm7D0_000044.jpg'></td>
-<td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/proposed/6pvMFjUm7D0_000044.wav'></audio>
-<td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/im2wav/6pvMFjUm7D0_000044.wav'></audio>
-<td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/v2amapper/6pvMFjUm7D0_000044.wav'></audio>
-<td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/snh/6pvMFjUm7D0_000044.wav'></audio>
+<td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/proposed/6pvMFjUm7D0_000044.wav'></audio></td>
+<td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/im2wav/6pvMFjUm7D0_000044.wav'></audio></td>
+<td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/v2amapper/6pvMFjUm7D0_000044.wav'></audio></td>
+<td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/snh/6pvMFjUm7D0_000044.wav'></audio></td>
 </tr>
 <tr>
 <td><img src='./assets/demo_samples/i2a/image/9PmzQI8ZYpg_000030.jpg'></td>
-<td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/proposed/9PmzQI8ZYpg_000030.wav'></audio>
-<td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/im2wav/9PmzQI8ZYpg_000030.wav'></audio>
-<td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/v2amapper/9PmzQI8ZYpg_000030.wav'></audio>
-<td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/snh/9PmzQI8ZYpg_000030.wav'></audio>
+<td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/proposed/9PmzQI8ZYpg_000030.wav'></audio></td>
+<td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/im2wav/9PmzQI8ZYpg_000030.wav'></audio></td>
+<td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/v2amapper/9PmzQI8ZYpg_000030.wav'></audio></td>
+<td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/snh/9PmzQI8ZYpg_000030.wav'></audio></td>
 </tr>
 <tr>
 <td><img src='./assets/demo_samples/i2a/image/Bg2XkNb5LZE_000140.jpg'></td>
-<td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/proposed/Bg2XkNb5LZE_000140.wav'></audio>
-<td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/im2wav/Bg2XkNb5LZE_000140.wav'></audio>
-<td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/v2amapper/Bg2XkNb5LZE_000140.wav'></audio>
-<td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/snh/Bg2XkNb5LZE_000140.wav'></audio>
+<td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/proposed/Bg2XkNb5LZE_000140.wav'></audio></td>
+<td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/im2wav/Bg2XkNb5LZE_000140.wav'></audio></td>
+<td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/v2amapper/Bg2XkNb5LZE_000140.wav'></audio></td>
+<td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/snh/Bg2XkNb5LZE_000140.wav'></audio></td>
 </tr>
 <tr>
 <td><img src='./assets/demo_samples/i2a/image/B-yqXExuYrk_000405.jpg'></td>
-<td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/proposed/B-yqXExuYrk_000405.wav'></audio>
-<td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/im2wav/B-yqXExuYrk_000405.wav'></audio>
-<td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/v2amapper/B-yqXExuYrk_000405.wav'></audio>
-<td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/snh/B-yqXExuYrk_000405.wav'></audio>
+<td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/proposed/B-yqXExuYrk_000405.wav'></audio></td>
+<td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/im2wav/B-yqXExuYrk_000405.wav'></audio></td>
+<td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/v2amapper/B-yqXExuYrk_000405.wav'></audio></td>
+<td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/snh/B-yqXExuYrk_000405.wav'></audio></td>
 </tr>
 <tr>
 <td><img src='./assets/demo_samples/i2a/image/DkAeTKwWXs8_000065.jpg'></td>
-<td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/proposed/DkAeTKwWXs8_000065.wav'></audio>
-<td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/im2wav/DkAeTKwWXs8_000065.wav'></audio>
-<td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/v2amapper/DkAeTKwWXs8_000065.wav'></audio>
-<td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/snh/DkAeTKwWXs8_000065.wav'></audio>
+<td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/proposed/DkAeTKwWXs8_000065.wav'></audio></td>
+<td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/im2wav/DkAeTKwWXs8_000065.wav'></audio></td>
+<td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/v2amapper/DkAeTKwWXs8_000065.wav'></audio></td>
+<td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/snh/DkAeTKwWXs8_000065.wav'></audio></td>
 </tr>
 <tr>
 <td><img src='./assets/demo_samples/i2a/image/FxkZsO4Kd78_000022.jpg'></td>
-<td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/proposed/FxkZsO4Kd78_000022.wav'></audio>
-<td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/im2wav/FxkZsO4Kd78_000022.wav'></audio>
-<td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/v2amapper/FxkZsO4Kd78_000022.wav'></audio>
-<td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/snh/FxkZsO4Kd78_000022.wav'></audio>
+<td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/proposed/FxkZsO4Kd78_000022.wav'></audio></td>
+<td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/im2wav/FxkZsO4Kd78_000022.wav'></audio></td>
+<td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/v2amapper/FxkZsO4Kd78_000022.wav'></audio></td>
+<td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/snh/FxkZsO4Kd78_000022.wav'></audio></td>
 </tr>
 <tr>
 <td><img src='./assets/demo_samples/i2a/image/WGOZNdTXITQ_000205.jpg'></td>
-<td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/proposed/WGOZNdTXITQ_000205.wav'></audio>
-<td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/im2wav/WGOZNdTXITQ_000205.wav'></audio>
-<td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/v2amapper/WGOZNdTXITQ_000205.wav'></audio>
-<td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/snh/WGOZNdTXITQ_000205.wav'></audio>
+<td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/proposed/WGOZNdTXITQ_000205.wav'></audio></td>
+<td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/im2wav/WGOZNdTXITQ_000205.wav'></audio></td></td>
+<td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/v2amapper/WGOZNdTXITQ_000205.wav'></audio></td>
+<td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/snh/WGOZNdTXITQ_000205.wav'></audio></td>
 </tr>
 </table>
 
