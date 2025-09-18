@@ -34,15 +34,42 @@ Both quantitative and qualitative evaluations demonstrate that our model outperf
 
 <br />
 
-### Samples
+### Comparison of I2A backbone with baselines
 
 <br />
 
-**Baseline**: ParallelWaveGAN trained with MAESTRO dataset (down-sampled to 16 kHz)
+<head>
+	<style>
+		table{
+			border-width : 1px;
+			border-style : solid;
+			border-collapse : collapse;
+		}
+		td{
+			border-width : 1px;
+			border-style : solid;
+			text-align: center;
+		}
+	</style>
+</head>
 
-**Ablation 1**: Proposed method without a harmonic-percussive separator module
-
-**Ablation 2**: Proposed method switching the roles of the harmonic and percussive discriminators
 
 
+<table style="table-layout: fixed; word-wrap: normal;" borded="1" border-collapse="collapse">
+    <tr>
+    <td style="column-width: 150px; padding-left: 10px; padding-right: 10px"><strong>Input image</strong></td>
+    <td style="column-width: 200px; padding-left: 10px; padding-right: 10px"><strong>Our I2A backbone</strong></td>
+    <td style="column-width: 200px; padding-left: 10px; padding-right: 10px"><strong>Im2Wav</strong></td>
+	<td style="column-width: 200px; padding-left: 10px; padding-right: 10px"><strong>V2A-Mapper</strong></td>
+	<td style="column-width: 200px; padding-left: 10px; padding-right: 10px"><strong>Seeing and Hearing</strong></td>
+</tr>
+<tr>
+<td><img src='./assets/demo_samples/i2a/image/6pvMFjUm7D0_000044.jpg'></td>
+<td><audio controls><source src='./assets/demo_samples/proposed/6pvMFjUm7D0_000044.wav'></audio>
+<td><audio controls><source src='./assets/demo_samples/im2wav/6pvMFjUm7D0_000044.wav'></audio>
+<td><audio controls><source src='./assets/demo_samples/v2amapper/6pvMFjUm7D0_000044.wav'></audio>
+<td><audio controls><source src='./assets/demo_samples/snh/6pvMFjUm7D0_000044.wav'></audio>
+</tr>
+</table>
 
+​    
