@@ -142,7 +142,7 @@ Both quantitative and qualitative evaluations demonstrate that our model outperf
     <td style="text-align:center"><strong>RMS+Smoothing+Z-norm</strong></td>
     </tr>
   <tr>
-    <td><img src='./assets/demo_samples/image/_rgOfS3NOSY_000108.jpg'></td>
+    <td><img src='./assets/demo_samples/image/i_rgOfS3NOSY_000108.jpg'></td>
 	  <td><video controls style="width: 100%;" src='./assets/demo_samples/energy_ablation/cropped/timestamp/v__rgOfS3NOSY_000108.mp4'></video></td>
 	  <td><video controls style="width: 100%;" src='./assets/demo_samples/energy_ablation/cropped/logmel_smoothing_znorm/v__rgOfS3NOSY_000108.mp4'></video></td>
 	  <td><video controls style="width: 100%;" src='./assets/demo_samples/energy_ablation/cropped/rms_smoothing_znorm/v__rgOfS3NOSY_000108.mp4'></video></td>
