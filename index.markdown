@@ -137,51 +137,51 @@ Both quantitative and qualitative evaluations demonstrate that our model outperf
   </colgroup>
     <tr>
     <td style="text-align:center"><strong>Input image</strong></td>
-    <td style="text-align:center"><strong>Timestamp</strong></td>
-    <td style="text-align:center"><strong>Logmel mean+Smoothing+Z-norm</strong></td>
     <td style="text-align:center"><strong>RMS+Smoothing+Z-norm</strong></td>
+    <td style="text-align:center"><strong>Timestamp</strong></td>
+    <td style="text-align:center"><strong>Logmel mean+Smoothing+Z-norm<br><span style="color:red">Caution! Popping noise</span></strong></td>
     </tr>
   <tr>
     <td><img src='./assets/demo_samples/image/i_rgOfS3NOSY_000108.jpg'></td>
+	  <td><video controls style="width: 100%;" src='./assets/demo_samples/energy_ablation/cropped/rms_smoothing_znorm/v__rgOfS3NOSY_000108.mp4'></video></td>
 	  <td><video controls style="width: 100%;" src='./assets/demo_samples/energy_ablation/cropped/timestamp/v__rgOfS3NOSY_000108.mp4'></video></td>
 	  <td><video controls style="width: 100%;" src='./assets/demo_samples/energy_ablation/cropped/logmel_smoothing_znorm/v__rgOfS3NOSY_000108.mp4'></video></td>
-	  <td><video controls style="width: 100%;" src='./assets/demo_samples/energy_ablation/cropped/rms_smoothing_znorm/v__rgOfS3NOSY_000108.mp4'></video></td>
   </tr>
   <tr>
     <td><img src='./assets/demo_samples/image/0IqPUUWnnd8_000085.jpg'></td>
+	  <td><video controls style="width: 100%;" src='./assets/demo_samples/energy_ablation/cropped/rms_smoothing_znorm/v_0IqPUUWnnd8_000085.mp4'></video></td>
 	  <td><video controls style="width: 100%;" src='./assets/demo_samples/energy_ablation/cropped/timestamp/v_0IqPUUWnnd8_000085.mp4'></video></td>
 	  <td><video controls style="width: 100%;" src='./assets/demo_samples/energy_ablation/cropped/logmel_smoothing_znorm/v_0IqPUUWnnd8_000085.mp4'></video></td>
-	  <td><video controls style="width: 100%;" src='./assets/demo_samples/energy_ablation/cropped/rms_smoothing_znorm/v_0IqPUUWnnd8_000085.mp4'></video></td>
   </tr>
   <tr>
     <td><img src='./assets/demo_samples/image/3njuN-F2Ecs_000332.jpg'></td>
+	  <td><video controls style="width: 100%;" src='./assets/demo_samples/energy_ablation/cropped/rms_smoothing_znorm/v_3njuN-F2Ecs_000332.mp4'></video></td>
 	  <td><video controls style="width: 100%;" src='./assets/demo_samples/energy_ablation/cropped/timestamp/v_3njuN-F2Ecs_000332.mp4'></video></td>
 	  <td><video controls style="width: 100%;" src='./assets/demo_samples/energy_ablation/cropped/logmel_smoothing_znorm/v_3njuN-F2Ecs_000332.mp4'></video></td>
-	  <td><video controls style="width: 100%;" src='./assets/demo_samples/energy_ablation/cropped/rms_smoothing_znorm/v_3njuN-F2Ecs_000332.mp4'></video></td>
   </tr>
   <tr>
     <td><img src='./assets/demo_samples/image/AAyqgdDOUYA_000020.jpg'></td>
+	  <td><video controls style="width: 100%;" src='./assets/demo_samples/energy_ablation/cropped/rms_smoothing_znorm/v_AAyqgdDOUYA_000020.mp4'></video></td>
 	  <td><video controls style="width: 100%;" src='./assets/demo_samples/energy_ablation/cropped/timestamp/v_AAyqgdDOUYA_000020.mp4'></video></td>
 	  <td><video controls style="width: 100%;" src='./assets/demo_samples/energy_ablation/cropped/logmel_smoothing_znorm/v_AAyqgdDOUYA_000020.mp4'></video></td>
-	  <td><video controls style="width: 100%;" src='./assets/demo_samples/energy_ablation/cropped/rms_smoothing_znorm/v_AAyqgdDOUYA_000020.mp4'></video></td>
   </tr>
   <tr>
     <td><img src='./assets/demo_samples/image/CpoUHOCPaNw_000020.jpg'></td>
+	  <td><video controls style="width: 100%;" src='./assets/demo_samples/energy_ablation/cropped/rms_smoothing_znorm/v_CpoUHOCPaNw_000020.mp4'></video></td>
 	  <td><video controls style="width: 100%;" src='./assets/demo_samples/energy_ablation/cropped/timestamp/v_CpoUHOCPaNw_000020.mp4'></video></td>
 	  <td><video controls style="width: 100%;" src='./assets/demo_samples/energy_ablation/cropped/logmel_smoothing_znorm/v_CpoUHOCPaNw_000020.mp4'></video></td>
-	  <td><video controls style="width: 100%;" src='./assets/demo_samples/energy_ablation/cropped/rms_smoothing_znorm/v_CpoUHOCPaNw_000020.mp4'></video></td>
   </tr>
   <tr>
     <td><img src='./assets/demo_samples/image/DKSrNxPQrbY_000090.jpg'></td>
+	  <td><video controls style="width: 100%;" src='./assets/demo_samples/energy_ablation/cropped/rms_smoothing_znorm/v_DKSrNxPQrbY_000090.mp4'></video></td>
 	  <td><video controls style="width: 100%;" src='./assets/demo_samples/energy_ablation/cropped/timestamp/v_DKSrNxPQrbY_000090.mp4'></video></td>
 	  <td><video controls style="width: 100%;" src='./assets/demo_samples/energy_ablation/cropped/logmel_smoothing_znorm/v_DKSrNxPQrbY_000090.mp4'></video></td>
-	  <td><video controls style="width: 100%;" src='./assets/demo_samples/energy_ablation/cropped/rms_smoothing_znorm/v_DKSrNxPQrbY_000090.mp4'></video></td>
   </tr>
   <tr>
     <td><img src='./assets/demo_samples/image/eFwVC47pOig_000100.jpg'></td>
+	  <td><video controls style="width: 100%;" src='./assets/demo_samples/energy_ablation/cropped/rms_smoothing_znorm/v_eFwVC47pOig_000100.mp4'></video></td>
 	  <td><video controls style="width: 100%;" src='./assets/demo_samples/energy_ablation/cropped/timestamp/v_eFwVC47pOig_000100.mp4'></video></td>
 	  <td><video controls style="width: 100%;" src='./assets/demo_samples/energy_ablation/cropped/logmel_smoothing_znorm/v_eFwVC47pOig_000100.mp4'></video></td>
-	  <td><video controls style="width: 100%;" src='./assets/demo_samples/energy_ablation/cropped/rms_smoothing_znorm/v_eFwVC47pOig_000100.mp4'></video></td>
   </tr>
 </table>
 
