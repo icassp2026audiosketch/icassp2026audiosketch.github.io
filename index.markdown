@@ -131,9 +131,9 @@ Both quantitative and qualitative evaluations demonstrate that our model outperf
 <table style="table-layout: fixed; word-wrap: normal;" borded="1" border-collapse="collapse">
   <colgroup>
     <col style="width: 150px;">   <!-- Input image -->
-    <col style="width: 350px;">   <!-- Timestamp -->
-    <col style="width: 350px;">   <!-- Logmel mean+Smoothing+Z-norm -->
-    <col style="width: 350px;">   <!-- RMS+Smoothing+Z-norm -->
+    <col style="width: 400px;">   <!-- Timestamp -->
+    <col style="width: 400px;">   <!-- Logmel mean+Smoothing+Z-norm -->
+    <col style="width: 400px;">   <!-- RMS+Smoothing+Z-norm -->
   </colgroup>
     <tr>
     <td style="text-align:center"><strong>Input image</strong></td>
@@ -143,9 +143,9 @@ Both quantitative and qualitative evaluations demonstrate that our model outperf
     </tr>
   <tr>
     <td><img src='./assets/demo_samples/image/_rgOfS3NOSY_000108.jpg'></td>
-	  <td><video><source src='./assets/demo_samples/energy_ablation/cropped/timestamp/v__rgOfS3NOSY_000108.mp4' type='video/mp4'></video></td>
-	  <td><video><source src='./assets/demo_samples/energy_ablation/cropped/logmel_smoothing_znorm/v__rgOfS3NOSY_000108.mp4' type='video/mp4'></video></td>
-	  <td><video><source src='./assets/demo_samples/energy_ablation/cropped/rms_smoothing_znorm/v__rgOfS3NOSY_000108.mp4' type='video/mp4'></video></td>
+	  <td><video controls src='./assets/demo_samples/energy_ablation/cropped/timestamp/v__rgOfS3NOSY_000108.mp4'></video></td>
+	  <td><video controls src='./assets/demo_samples/energy_ablation/cropped/logmel_smoothing_znorm/v__rgOfS3NOSY_000108.mp4'></video></td>
+	  <td><video controls src='./assets/demo_samples/energy_ablation/cropped/rms_smoothing_znorm/v__rgOfS3NOSY_000108.mp4'></video></td>
   </tr>
 </table>
 
