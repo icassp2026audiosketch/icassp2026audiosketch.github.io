@@ -33,7 +33,7 @@ Both quantitative and qualitative evaluations demonstrate that our model outperf
 
 <br />
 
-### Comparison of I2A backbone with baselines
+### Samples: Performance comparison on I2A methods
 
 <br />
 
@@ -68,7 +68,7 @@ Both quantitative and qualitative evaluations demonstrate that our model outperf
     <td style="text-align:center"><strong>Im2Wav</strong></td>
     <td style="text-align:center"><strong>V2A-Mapper</strong></td>
     <td style="text-align:center"><strong>Seeing and Hearing</strong></td>
-</tr>
+    </tr>
 <tr>
 <td><img src='./assets/demo_samples/i2a/image/6pvMFjUm7D0_000044.jpg'></td>
 <td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/proposed/6pvMFjUm7D0_000044.wav'></audio></td>
@@ -121,3 +121,51 @@ Both quantitative and qualitative evaluations demonstrate that our model outperf
 </table>
 
 ​    
+
+<br />
+
+### Samples: Performance comparison on various energy representations
+
+<br />
+
+<table style="table-layout: fixed; word-wrap: normal;" borded="1" border-collapse="collapse">
+  <colgroup>
+    <col style="width: 150px;">   <!-- Input image -->
+    <col style="width: 350px;">   <!-- Timestamp -->
+    <col style="width: 350px;">   <!-- Logmel mean+Smoothing+Z-norm -->
+    <col style="width: 350px;">   <!-- RMS+Smoothing+Z-norm -->
+  </colgroup>
+    <tr>
+    <td style="text-align:center"><strong>Input image</strong></td>
+    <td style="text-align:center"><strong>Timestamp</strong></td>
+    <td style="text-align:center"><strong>Logmel mean+Smoothing+Z-norm</strong></td>
+    <td style="text-align:center"><strong>RMS+Smoothing+Z-norm</strong></td>
+    </tr>
+  <tr>
+    <td><img src='./assets/demo_samples/image/_rgOfS3NOSY_000108.jpg'></td>
+	  <td><video><source src='./assets/demo_samples/energy_ablation/cropped/timestamp/v__rgOfS3NOSY_000108.mp4' type='video/mp4'></video></td>
+	  <td><video><source src='./assets/demo_samples/energy_ablation/cropped/logmel_smoothing_znorm/v__rgOfS3NOSY_000108.mp4' type='video/mp4'></video></td>
+	  <td><video><source src='./assets/demo_samples/energy_ablation/cropped/rms_smoothing_znorm/v__rgOfS3NOSY_000108.mp4' type='video/mp4'></video></td>
+  </tr>
+</table>
+
+
+<br />
+
+### Samples: Impact of energy modulator
+
+<br />
+
+<table style="table-layout: fixed; word-wrap: normal;" borded="1" border-collapse="collapse">
+  <colgroup>
+    <col style="width: 150px;">   <!-- Input image -->
+    <col style="width: 350px;">   <!-- Timestamp -->
+    <col style="width: 350px;">   <!-- Logmel mean+Smoothing+Z-norm- ->
+    <col style="width: 350px;">   <!-- RMS+Smoothing+Z-norm -->
+  </colgroup>
+    <tr>
+    <td style="text-align:center"><strong>Input image</strong></td>
+    <td style="text-align:center"><strong> </strong></td>
+    <td style="text-align:center"><strong>Logmel mean+Smoothing+Z-norm</strong></td>
+    <td style="text-align:center"><strong>RMS+Smoothing+Z-norm</strong></td>
+</tr>
