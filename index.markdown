@@ -33,25 +33,15 @@ Both quantitative and qualitative evaluations demonstrate that our model outperf
 
 <br />
 
-### Samples: Performance comparison on I2A methods
+### Result samples#1: Performance comparison on I2A methods
+
+------
+
+explanation
 
 
-<head>
-	<style>
-		table{
-			border-width : 1px;
-			border-style : solid;
-			border-collapse : collapse;
-		}
-		td{
-			border-width : 1px;
-			border-style : solid;
-			text-align: center;
-		}
-	</style>
-</head>
 
-
+<br />
 
 <table style="table-layout: fixed; word-wrap: normal;" borded="1" border-collapse="collapse">
   <colgroup>
@@ -63,7 +53,7 @@ Both quantitative and qualitative evaluations demonstrate that our model outperf
   </colgroup>
     <tr>
     <td style="text-align:center"><strong>Input image</strong></td>
-    <td style="text-align:center"><strong>Our I2A backbone</strong></td>
+    <td style="text-align:center"><strong>AudioSketch w/o control</strong></td>
     <td style="text-align:center"><strong>Im2Wav</strong></td>
     <td style="text-align:center"><strong>V2A-Mapper</strong></td>
     <td style="text-align:center"><strong>Seeing and Hearing</strong></td>
@@ -119,11 +109,20 @@ Both quantitative and qualitative evaluations demonstrate that our model outperf
 </tr>
 </table>
 
+
 ​    
 
 <br />
 
-### Samples: Performance comparison on various energy representations
+### Result samples#2: Performance comparison on various energy representations
+
+------
+
+explanation
+
+
+
+<br />
 
 
 <table style="table-layout: fixed; word-wrap: normal;" borded="1" border-collapse="collapse">
@@ -186,7 +185,15 @@ Both quantitative and qualitative evaluations demonstrate that our model outperf
 
 <br />
 
-### Samples: Impact of energy modulator
+### Result samples#3: Impact of energy modulator
+
+------
+
+explanation
+
+
+
+<br />
 
 <table style="table-layout: fixed; word-wrap: normal;" borded="1" border-collapse="collapse">
   <colgroup>
@@ -198,7 +205,7 @@ Both quantitative and qualitative evaluations demonstrate that our model outperf
     <tr>
     <td style="text-align:center"><strong>Input image</strong></td>
     <td style="text-align:center"><strong>Timestamp</strong></td>
-    <td style="text-align:center"><strong>Timestamp + Energy modulation</strong></td>
+    <td style="text-align:center"><strong>Timestamp + Energy modulation (AudioSketch) </strong></td>
     <td style="text-align:center"><strong>Timestamp + Energy modulation w/o semantic embedding</strong></td>
     </tr>
   <tr>
