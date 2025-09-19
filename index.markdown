@@ -37,7 +37,7 @@ Both quantitative and qualitative evaluations demonstrate that our model outperf
 
 ------
 
-explanation
+We verify **the vanilla image-to-audio generation capability** of AudioSketch without energy control, comparing it to previous I2A methods.
 
 <br />
 
@@ -115,7 +115,11 @@ explanation
 
 ------
 
-explanation
+We conduct ablation studies on different energy representations used as conditions for ControlNet. 
+
+**RMS-based energy** with smoothing and normalization achieves higher audio quality and naturalness compared to others.
+
+<span style="color:blue">Blue curves</span> depict <span style="color:blue">input energy trajectories</span> provided to ControlNet.
 
 
 
@@ -186,7 +190,11 @@ explanation
 
 ------
 
-explanation
+Given an user-friendly timestamp input, applying **energy modulator** improves audio quality and naturalness while preserving temporal alignment.
+
+Without a **semantic embedding**, however, the modulator fails to estimate the target energy representation.
+
+<span style="color:blue">Blue curves</span> depict <span style="color:blue">the input timestamps</span> or <span style="color:blue">modulated energy trajectories</span> provided to ControlNet.
 
 
 
@@ -201,7 +209,7 @@ explanation
 </colgroup>
 <tr>
 <td style="text-align:center"><strong>Input image</strong></td>
-<td style="text-align:center"><strong>Timestamp</strong></td>
+<td style="text-align:center"><strong>Timestamp only</strong></td>
 <td style="text-align:center"><strong>Timestamp + Energy modulation (AudioSketch) </strong></td>
 <td style="text-align:center"><strong>Timestamp + Energy modulation w/o semantic embedding</strong></td>
 </tr>
@@ -260,3 +268,4 @@ explanation
 <td><video controls style="width: 100%;" src='./assets/demo_samples/energy_modulation/cropped/em_only/v_xnA7O5ESAbY_000030.mp4'></video></td>
 </tr>
 </table>
+
