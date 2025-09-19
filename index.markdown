@@ -101,7 +101,7 @@ explanation
 <tr>
 <td><img src='./assets/demo_samples/i2a/image/WGOZNdTXITQ_000205.jpg'></td>
 <td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/proposed/WGOZNdTXITQ_000205.wav'></audio></td>
-<td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/im2wav/WGOZNdTXITQ_000205.wav'></audio></td></td>
+<td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/im2wav/WGOZNdTXITQ_000205.wav'></audio></td>
 <td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/v2amapper/WGOZNdTXITQ_000205.wav'></audio></td>
 <td><audio controls style="width: 100%;"><source src='./assets/demo_samples/i2a/snh/WGOZNdTXITQ_000205.wav'></audio></td>
 </tr>
