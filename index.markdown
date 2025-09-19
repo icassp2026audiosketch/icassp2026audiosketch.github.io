@@ -12,7 +12,7 @@ Submitted to ICASSP 2026
 
 <br />
 ### Authors
-Jihyun Lee, Jiahao Li, Woojin Chung, Yan Lu, Hong-Goo Kang
+Jihyun Lee, Jiahao Li, Woojin Chung, Yan Lu, and Hong-Goo Kang
 
 <br />
 
@@ -38,8 +38,6 @@ Both quantitative and qualitative evaluations demonstrate that our model outperf
 ------
 
 explanation
-
-
 
 <br />
 
@@ -110,7 +108,6 @@ explanation
 </table>
 
 
-​    
 
 <br />
 
