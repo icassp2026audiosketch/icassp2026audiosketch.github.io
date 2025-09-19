@@ -35,7 +35,6 @@ Both quantitative and qualitative evaluations demonstrate that our model outperf
 
 ### Samples: Performance comparison on I2A methods
 
-<br />
 
 <head>
 	<style>
@@ -126,7 +125,6 @@ Both quantitative and qualitative evaluations demonstrate that our model outperf
 
 ### Samples: Performance comparison on various energy representations
 
-<br />
 
 <table style="table-layout: fixed; word-wrap: normal;" borded="1" border-collapse="collapse">
   <colgroup>
@@ -137,9 +135,9 @@ Both quantitative and qualitative evaluations demonstrate that our model outperf
   </colgroup>
     <tr>
     <td style="text-align:center"><strong>Input image</strong></td>
-    <td style="text-align:center"><strong>RMS+Smoothing+Z-norm</strong></td>
+    <td style="text-align:center"><strong>RMS + Smoothing + Z-norm</strong></td>
     <td style="text-align:center"><strong>Timestamp</strong></td>
-    <td style="text-align:center"><strong>Logmel mean+Smoothing+Z-norm<br><span style="color:red">Caution! Popping noise</span></strong></td>
+    <td style="text-align:center"><strong>Logmel mean + Smoothing + Z-norm<br><span style="color:red">Caution! Popping noise</span></strong></td>
     </tr>
   <tr>
     <td><img src='./assets/demo_samples/image/i_rgOfS3NOSY_000108.jpg'></td>
@@ -190,18 +188,71 @@ Both quantitative and qualitative evaluations demonstrate that our model outperf
 
 ### Samples: Impact of energy modulator
 
-<br />
-
 <table style="table-layout: fixed; word-wrap: normal;" borded="1" border-collapse="collapse">
   <colgroup>
     <col style="width: 150px;">   <!-- Input image -->
-    <col style="width: 350px;">   <!-- Timestamp -->
-    <col style="width: 350px;">   <!-- Logmel mean+Smoothing+Z-norm- ->
-    <col style="width: 350px;">   <!-- RMS+Smoothing+Z-norm -->
+    <col style="width: 500px;">   <!-- Timestamp -->
+    <col style="width: 500px;">   <!-- Timestamp + energy modulation -->
+    <col style="width: 500px;">   <!-- Timestamp + energy modulation w/o semantic embedding -->
   </colgroup>
     <tr>
     <td style="text-align:center"><strong>Input image</strong></td>
-    <td style="text-align:center"><strong> </strong></td>
-    <td style="text-align:center"><strong>Logmel mean+Smoothing+Z-norm</strong></td>
-    <td style="text-align:center"><strong>RMS+Smoothing+Z-norm</strong></td>
-</tr>
+    <td style="text-align:center"><strong>Timestamp</strong></td>
+    <td style="text-align:center"><strong>Timestamp + Energy modulation</strong></td>
+    <td style="text-align:center"><strong>Timestamp + Energy modulation w/o semantic embedding</strong></td>
+    </tr>
+  <tr>
+    <td><img src='./assets/demo_samples/image/h6YMk2FOHHM_000017.jpg'></td>
+	  <td><video controls style="width: 100%;" src='./assets/demo_samples/energy_modulation/cropped/timestamp/v_h6YMk2FOHHM_000017.mp4'></video></td>
+	  <td><video controls style="width: 100%;" src='./assets/demo_samples/energy_modulation/cropped/em_sem/v_h6YMk2FOHHM_000017.mp4'></video></td>
+	  <td><video controls style="width: 100%;" src='./assets/demo_samples/energy_modulation/cropped/em_only/v_h6YMk2FOHHM_000017.mp4'></video></td>
+  </tr>
+  <tr>
+    <td><img src='./assets/demo_samples/image/HOyov3OS0a0_000054.jpg'></td>
+	  <td><video controls style="width: 100%;" src='./assets/demo_samples/energy_modulation/cropped/timestamp/v_HOyov3OS0a0_000054.mp4'></video></td>
+	  <td><video controls style="width: 100%;" src='./assets/demo_samples/energy_modulation/cropped/em_sem/v_HOyov3OS0a0_000054.mp4'></video></td>
+	  <td><video controls style="width: 100%;" src='./assets/demo_samples/energy_modulation/cropped/em_only/v_HOyov3OS0a0_000054.mp4'></video></td>
+  </tr>
+  <tr>
+    <td><img src='./assets/demo_samples/image/HQb2jhmw1BE_000310.jpg'></td>
+	  <td><video controls style="width: 100%;" src='./assets/demo_samples/energy_modulation/cropped/timestamp/v_HQb2jhmw1BE_000310.mp4'></video></td>
+	  <td><video controls style="width: 100%;" src='./assets/demo_samples/energy_modulation/cropped/em_sem/v_HQb2jhmw1BE_000310.mp4'></video></td>
+	  <td><video controls style="width: 100%;" src='./assets/demo_samples/energy_modulation/cropped/em_only/v_HQb2jhmw1BE_000310.mp4'></video></td>
+  </tr>
+  <tr>
+    <td><img src='./assets/demo_samples/image/ioQdfK6Ae9k_000010.jpg'></td>
+	  <td><video controls style="width: 100%;" src='./assets/demo_samples/energy_modulation/cropped/timestamp/v_ioQdfK6Ae9k_000010.mp4'></video></td>
+	  <td><video controls style="width: 100%;" src='./assets/demo_samples/energy_modulation/cropped/em_sem/v_ioQdfK6Ae9k_000010.mp4'></video></td>
+	  <td><video controls style="width: 100%;" src='./assets/demo_samples/energy_modulation/cropped/em_only/v_ioQdfK6Ae9k_000010.mp4'></video></td>
+  </tr>
+  <tr>
+    <td><img src='./assets/demo_samples/image/K1ASf4xAexc_000030.jpg'></td>
+	  <td><video controls style="width: 100%;" src='./assets/demo_samples/energy_modulation/cropped/timestamp/v_K1ASf4xAexc_000030.mp4'></video></td>
+	  <td><video controls style="width: 100%;" src='./assets/demo_samples/energy_modulation/cropped/em_sem/v_K1ASf4xAexc_000030.mp4'></video></td>
+	  <td><video controls style="width: 100%;" src='./assets/demo_samples/energy_modulation/cropped/em_only/v_K1ASf4xAexc_000030.mp4'></video></td>
+  </tr>
+  <tr>
+    <td><img src='./assets/demo_samples/image/KQAR_64a35I_000011.jpg'></td>
+	  <td><video controls style="width: 100%;" src='./assets/demo_samples/energy_modulation/cropped/timestamp/v_KQAR_64a35I_000011.mp4'></video></td>
+	  <td><video controls style="width: 100%;" src='./assets/demo_samples/energy_modulation/cropped/em_sem/v_KQAR_64a35I_000011.mp4'></video></td>
+	  <td><video controls style="width: 100%;" src='./assets/demo_samples/energy_modulation/cropped/em_only/v_KQAR_64a35I_000011.mp4'></video></td>
+  </tr>
+  <tr>
+    <td><img src='./assets/demo_samples/image/N4SfahxM8Z4_000004.jpg'></td>
+	  <td><video controls style="width: 100%;" src='./assets/demo_samples/energy_modulation/cropped/timestamp/v_N4SfahxM8Z4_000004.mp4'></video></td>
+	  <td><video controls style="width: 100%;" src='./assets/demo_samples/energy_modulation/cropped/em_sem/v_N4SfahxM8Z4_000004.mp4'></video></td>
+	  <td><video controls style="width: 100%;" src='./assets/demo_samples/energy_modulation/cropped/em_only/v_N4SfahxM8Z4_000004.mp4'></video></td>
+  </tr>
+  <tr>
+    <td><img src='./assets/demo_samples/image/Q19VErS2iH4_000020.jpg'></td>
+	  <td><video controls style="width: 100%;" src='./assets/demo_samples/energy_modulation/cropped/timestamp/v_Q19VErS2iH4_000020.mp4'></video></td>
+	  <td><video controls style="width: 100%;" src='./assets/demo_samples/energy_modulation/cropped/em_sem/v_Q19VErS2iH4_000020.mp4'></video></td>
+	  <td><video controls style="width: 100%;" src='./assets/demo_samples/energy_modulation/cropped/em_only/v_Q19VErS2iH4_000020.mp4'></video></td>
+  </tr>
+  <tr>
+    <td><img src='./assets/demo_samples/image/xnA7O5ESAbY_000030.jpg'></td>
+	  <td><video controls style="width: 100%;" src='./assets/demo_samples/energy_modulation/cropped/timestamp/v_xnA7O5ESAbY_000030.mp4'></video></td>
+	  <td><video controls style="width: 100%;" src='./assets/demo_samples/energy_modulation/cropped/em_sem/v_xnA7O5ESAbY_000030.mp4'></video></td>
+	  <td><video controls style="width: 100%;" src='./assets/demo_samples/energy_modulation/cropped/em_only/v_xnA7O5ESAbY_000030.mp4'></video></td>
+  </tr>
+</table>
